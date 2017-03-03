@@ -1,0 +1,81 @@
+  <h2>Navegación de charts</h2>
+
+
+<ul class="nav nav-tabs">
+	<li class="active"><a href="#myTabPage00" data-toggle="tab">Geo Orthographic</a></li>
+	<li><a href="#myTabPage01" data-toggle="tab">Barra </a></li>
+	<li><a href="#myTabPage02" data-toggle="tab">Pastel</a></li>
+	<li><a href="#myTabPage04" data-toggle="tab">Scatter Plot</a></li>
+	<li><a href="#myTabPage05" data-toggle="tab">Histograma</a></li>
+	<li><a href="#myTabPage06" data-toggle="tab">Pack Layout</a></li>
+	<li><a href="#myTabPage07" data-toggle="tab">Arbol</a></li>
+	<li><a href="#myTabPage08" data-toggle="tab">Linea </a></li>
+	<li><a href="#myTabPage09" data-toggle="tab">Geo Map</a></li>
+	<li><a href="#myTabPage11" data-toggle="tab">Barra 2</a></li>
+	<li><a href="#myTabPage12" data-toggle="tab">Choropleth</a></li>
+	<li><a href="#myTabPage13" data-toggle="tab">Force</a></li>
+</ul>
+
+<!-- タブ内容 -->
+<div class="tab-content">
+	<div class="tab-pane active" id="myTabPage00">
+		<hr>
+		<h2>GeoOrthographic</h2>
+		<o2-chart [chartType]="geoOrthographicTypeName" [configData]="configData"  [graphData]="geoOrthographicDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage01">
+		<hr>
+		<h2>Bar</h2>
+		<o2-chart [chartType]="barTypeName" [configData]="configData"  [graphData]="barDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage02">
+		<hr>
+		<h2>Pie</h2>
+		<o2-chart [chartType]="pieTypeName" [configData]="configData"  [graphData]="pieDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage04">
+		<hr>
+		<h2>ScatterPlot</h2>
+		<o2-chart [chartType]="scatterPlotTypeName" [configData]="configData"  [graphData]="scatterPlotDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage05">
+		<hr>
+		<h2>Histogram</h2>
+		<o2-chart [chartType]="histogramTypeName" [configData]="configData"  [graphData]="histogramDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage06">
+		<hr>
+		<h2>PackLayout</h2>
+		<o2-chart [chartType]="packLayoutTypeName" [configData]="configData"  [graphData]="packLayoutDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage07">
+		<hr>
+		<h2>Tree</h2>
+		<o2-chart [chartType]="treeTypeName" [configData]="configData"  [graphData]="treeDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage08">
+		<hr>
+		<h2>Line</h2>
+		<o2-chart [chartType]="lineTypeName" [configData]="configData"  [graphData]="lineDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage09">
+		<hr>
+		<h2>GeoMap</h2>
+		<o2-chart [chartType]="geoMapTypeName" [configData]="configData"  [graphData]="geoMapDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage11">
+		<hr>
+		<h2>StackBar</h2>
+		<o2-chart [chartType]="stackBarTypeName" [configData]="configData"  [graphData]="stackBarDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage12">
+		<hr>
+		<h2>Choropleth</h2>
+		<o2-chart [chartType]="choroplethTypeName" [configData]="configData"  [graphData]="choroplethDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+	<div class="tab-pane" id="myTabPage13">
+		<hr>
+		<h2>Force</h2>
+		<o2-chart [chartType]="forceTypeName" [configData]="configData"  [graphData]="forceDataJson" [svgWidth]="'600'" [svgHeight]="'400'"></o2-chart>
+	</div>
+</div>	
