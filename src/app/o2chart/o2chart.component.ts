@@ -4,6 +4,11 @@ import {O2Common, O2LegendData, O2ScatterPlotData, O2StackBarData, O2LineData, O
 import {ChartConst} from './shared/chart-const';
 import * as d3  from 'd3';
 
+@Component({
+    selector: 'o2-chart'
+})
+
+
 @Directive({
   selector: 'o2-chart'
 })

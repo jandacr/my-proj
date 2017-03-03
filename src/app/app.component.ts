@@ -10,7 +10,7 @@ import { ChartConst } from './o2chart/shared/chart-const';
 export class AppComponent  { 
   
   
-chartType:string;
+	chartType:string;
 	configData:any;
 	barDataJson:any;
 	geoMapDataJson:any;
